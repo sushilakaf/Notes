@@ -1,0 +1,75 @@
+
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+ 
+ 
+}
+.cardStyle{
+  width: 820px;
+  background-color: #A8ACBA;
+}
+.buttonStyle{
+ text-align: center;
+ 
+}
+.buttonStyle button{
+  height: 40px;
+  width: 250px;
+  border: none;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.img-style{
+  height: 750px;
+  width: 550px;
+  object-fit: cover;
+ 
+}
+
+.todo-list-item {
+  display: flex;
+  flex-direction: column; 
+  gap: 8px; 
+  
+}
+
+.todo-item {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  border: none;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #f9f9f9; 
+}
+
+.todo-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-buttons {
+  display: flex;
+  gap: 10px; 
+}
+.todo-buttons button{
+  height: 40px;
+  width: 60px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+.todo-buttons button:hover {
+  background-color: #0056b3; 
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
